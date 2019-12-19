@@ -8,6 +8,10 @@
     background-color: #FF3800;
 }
 
+.alternate-row {
+    background-color: #38FF00;
+}
+
 table {
   /* #111 */
   color: #111;
