@@ -10,7 +10,7 @@ export class OrbitCountsComponent implements OnInit {
 
   @Input() satellites: Satellite[];
 
-  arrayOfTypes: string[];
+  // arrayOfTypes: string[];
   arrayOfUniqueTypes: string[];
 
   constructor() {
@@ -22,8 +22,8 @@ export class OrbitCountsComponent implements OnInit {
       'Probe',
       'Positioning',
       'Space Station',
-      'Telescope'
-    ]
+      'Telescope',
+    ];
   }
 
   ngOnInit() {
