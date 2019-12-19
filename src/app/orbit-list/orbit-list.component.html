@@ -7,9 +7,9 @@
         <th>Orbit Type</th>
         <th>Launch Date</th>
     </tr>
-    <tr *ngFor="let satellite of satellites" [class.alternate-row]="satellites.indexOf(satellite) % 2 === 0">
+    <tr *ngFor="let satellite of satellites" [class.alternate-row]="satellites.indexOf(satellite) % 2 === 0" [class.warning]="satellite.shouldShowWarning()">
         <td>{{ satellite.name }}</td>
-        <td  [class.warning]="satellite.shouldShowWarning()">{{ satellite.type }}</td>
+        <td>{{ satellite.type }}</td>
         <td>{{ satellite.operational }}</td>
         <td>{{ satellite.orbitType }}</td>
         <td>{{ satellite.launchDate }}</td>

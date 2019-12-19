@@ -3,13 +3,13 @@
     color: #dd5;
 }
 
+.alternate-row {
+    background-color: #38FF00;
+}
+
 .warning {
     /* #da8a8a */
     background-color: #FF3800;
-}
-
-.alternate-row {
-    background-color: #38FF00;
 }
 
 table {
